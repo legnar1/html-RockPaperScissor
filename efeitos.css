@@ -181,3 +181,32 @@ code {
     transform: rotate(-90deg); /* Faz a imagem girar 90 graus no sentido anti-horário quando estiver focada (ex. ao tocar a tela em dispositivos móveis) */
   }
 }
+nft1:hover,
+.nft2:hover,
+.nft3:hover {
+  border: 1px solid #ffffff44;
+  box-shadow: 0 7px 50px 10px #000000aa;
+  transform: scale(1.015);
+  filter: brightness(1.3);
+}
+
+.nft1:target,
+.nft2:target,
+.nft3:target {
+  border: 1px solid #ffffff44;
+  box-shadow: 0 7px 50px 10px #000000aa;
+  transform: scale(1.015);
+  filter: brightness(1.3);
+}
+
+/* Adicione este bloco de código apenas para a animação automática após 3 segundos */
+@keyframes hover-animation {
+  0% { border: 1px solid #ffffff22; box-shadow: 0 7px 20px 5px #00000088; }
+  100% { border: 1px solid #ffffff44; box-shadow: 0 7px 50px 10px #000000aa; transform: scale(1.015); filter: brightness(1.3); }
+}
+
+.nft1:target~.nft2,
+.nft2:target~.nft3,
+.nft3:target~.nft1 {
+  animation: hover-animation 3s linear infinite;
+}
