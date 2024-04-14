@@ -1,0 +1,107 @@
+  <!DOCTYPE html>
+  <html lang="en">
+
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="efeitos.css">
+    
+  </head>
+
+  <body>
+    <div class ="container">
+    <div class="bg">
+      <h1>RockPaperScissor</h1>
+    </div>
+    <div class="nft1">
+      <div class='main'>
+        <img class='tokenImage' src="imgs/rock.png" alt="NFT" />
+        <h2>Rock #01</h2>
+        <p class='description'>Just a Rock hand sign, waste your money on us.</p>
+        <div class='tokenInfo'>
+          <div class="price">
+            <ins>◘</ins>
+            <p>0.02 ETH</p>
+          </div>
+          <div class="duration">
+            <ins>◷</ins>
+            <p>11 days left</p>
+          </div>
+        </div>
+        <hr />
+        <div class='creator'>
+          <div class='wrapper'>
+            <img src="https://images.unsplash.com/photo-1620121692029-d088224ddc74?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1932&q=80" alt="Creator" />
+          </div>
+          <p><ins>Creation of</ins> Legnar</p>
+        </div>
+      </div>
+    </div>
+    <div class="nft2">
+      <div class='main'>
+        <img class='tokenImage' src="imgs/paper.png" alt="NFT" />
+        <h2>Paper #02</h2>
+        <p class='description'>Just a Paper hand sign, waste your money on us.</p>
+        <div class='tokenInfo'>
+          <div class="price">
+            <ins>◘</ins>
+            <p>0.02 ETH</p>
+          </div>
+          <div class="duration">
+            <ins>◷</ins>
+            <p>11 days left</p>
+          </div>
+        </div>
+        <hr />
+        <div class='creator'>
+          <div class='wrapper'>
+            <img src="https://images.unsplash.com/photo-1620121692029-d088224ddc74?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1932&q=80" alt="Creator" />
+          </div>
+          <p><ins>Creation of</ins> Legnar</p>
+        </div>
+      </div>
+    </div>
+
+    <div class="nft3">
+      <div class='main'>
+        <img class='tokenImage' src="imgs/scissors.png" alt="NFT" />
+        <h2>Scissor #03</h2>
+        <p class='description'>Just a Scissor hand sign, waste your money on us.</p>
+        <div class='tokenInfo'>
+          <div class="price">
+            <ins>◘</ins>
+            <p>0.02 ETH</p>
+          </div>
+          <div class="duration">
+            <ins>◷</ins>
+            <p>11 days left</p>
+          </div>
+        </div>
+        <hr />
+        <div class='creator'>
+          <div class='wrapper'>
+            <img src="https://images.unsplash.com/photo-1620121692029-d088224ddc74?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1932&q=80" alt="Creator" />
+          </div>
+          <p><ins>Creation of</ins> Legnar</p>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="chip" ng-class="uiSetMoveClasses('rock', 1)" ng-click="uiPlay('rock')">
+    <span class="fa fa-hand-rock-o fa-fw fa-2x"></span>
+  </div>
+
+  <div class="chip" ng-class="uiSetMoveClasses('paper', 2)" ng-click="uiPlay('paper')">
+    <span class="fa fa-hand-paper-o fa-fw fa-2x"></span>
+  </div>
+
+  <div class="chip" ng-class="uiSetMoveClasses('scissors', 3)" ng-click="uiPlay('scissors')">
+    <span class="fa fa-hand-scissors-o fa-fw fa-2x"></span>
+  </div>
+
+    
+  </body>
+
+  </html>
