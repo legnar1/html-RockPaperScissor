@@ -152,8 +152,12 @@ code {
 }
 
 @media (max-width: 768px) {
+  .container {
+    justify-content: center; /* Centraliza as cartas verticalmente em dispositivos móveis */
+  }
+
   .nft1, .nft2, .nft3 {
     width: 100%; /* Altera a largura das cartas para 100% em dispositivos menores */
-    margin: 5rem 0; /* Remove a margem lateral em dispositivos menores */
+    margin: 5rem auto; /* Centraliza as cartas horizontalmente */
   }
 }
