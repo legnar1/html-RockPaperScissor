@@ -57,7 +57,7 @@ code {
       object-fit: cover;
       transform-style: preserve-3d; /* Garante que o elemento mantenha sua perspectiva 3D */
       backface-visibility: hidden; /* Esconde a face traseira da imagem para evitar que ela fique invisível ao girar */
-      transition: transform 0.5s ease; /* Adiciona uma transição suave ao girar a imagem *
+      transition: transform 0.5s ease; /* Adiciona uma transição suave ao girar a imagem */
 
     }
     .description {
